@@ -32,6 +32,6 @@ So which we are using is
     		Map<String, String> dataMap = new HashMap<String, String>();
     		dataMap.put(Constants.TO, "tonumber");
     		// dataMap.put(Constants.FROM, null);//If you want you can set from number while sending
-    		dataMap.put(Constants.MESSAGE, "Congrats,You are gootle now...Enjoy");
+    		dataMap.put(Constants.MESSAGE, "Congrats,Enjoy");
     		sender.send(dataMap);
         }
